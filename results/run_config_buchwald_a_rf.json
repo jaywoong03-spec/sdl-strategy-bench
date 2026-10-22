@@ -1,0 +1,34 @@
+{
+  "seeds": 20,
+  "surrogate": "rf",
+  "ucb_beta": 2.0,
+  "ei_xi": 0.01,
+  "k_frac_headline": 0.01,
+  "k_fracs_reported": [
+    0.01,
+    0.05
+  ],
+  "recall_includes_initial_design": "both variants reported",
+  "budgets": {
+    "crossed_barrel": {
+      "budget": 50,
+      "n_init": 8
+    },
+    "buchwald_a": {
+      "budget": 60,
+      "n_init": 10
+    },
+    "redoxmers": {
+      "budget": 100,
+      "n_init": 12
+    }
+  },
+  "datasets": {
+    "buchwald_a": {
+      "n_candidates": 792,
+      "n_features": 32,
+      "objective": "maximise yield",
+      "source": "Ahneman, Estrada, Lin, Dreher & Doyle, 'Predicting reaction performance in C-N cross-coupling using machine learning', Science 360:186-190, 2018. Via Olympus (MIT), case a."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "seeds": 20,
+  "surrogate": "rf",
+  "ucb_beta": 2.0,
+  "ei_xi": 0.01,
+  "k_frac_headline": 0.01,
+  "k_fracs_reported": [
+    0.01,
+    0.05
+  ],
+  "recall_includes_initial_design": "both variants reported",
+  "budgets": {
+    "crossed_barrel": {
+      "budget": 50,
+      "n_init": 8
+    },
+    "buchwald_a": {
+      "budget": 60,
+      "n_init": 10
+    },
+    "redoxmers": {
+      "budget": 100,
+      "n_init": 12
+    }
+  },
+  "datasets": {
+    "crossed_barrel": {
+      "n_candidates": 600,
+      "n_features": 4,
+      "objective": "maximise toughness",
+      "source": "Gongora et al., 'A Bayesian experimental autonomous researcher for mechanical design', Science Advances 6(15):eaaz1708, 2020. Via Olympus (MIT)."
+    }
+  }
+}
