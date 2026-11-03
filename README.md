@@ -1,5 +1,4 @@
 # Which experiment should we run next?
-
 A small, reusable engine for comparing experiment-selection strategies under a
 fixed experiment budget, benchmarked on three public experimental datasets with
 very different structure.
