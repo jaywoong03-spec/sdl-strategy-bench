@@ -1,6 +1,6 @@
 # 코드 읽는 법 (본인용 학습 노트)
 순서는 `strategies.py` → `campaign.py` → `stats.py` → `surrogate.py` →
-`adapters.py`입니다. 질문은 거의 전부 앞의 세 파일에서 나옵니다.
+`adapters.py`입니다. 
 
 ---
 
